@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>galya</title>
+</head>
+<body>
+    <script>
+var login=prompt('Введите ваш логин', '');
+        if (login=='Админ'){
+          var password=prompt('Введите пароль', '');
+            if (password=='Чёрный Властелин'){
+                alert('Добро пожаловать!');
+            }
+            else if (password==null){
+                alert('Вход отменен!');
+            } else {
+                alert('Пароль неверен!');
+            }
+        }
+        else if (login==null){
+            alert('Вход отменен!');
+        } else {
+            alert('Я вас не знаю!');
+        }
+
+    </script>
+
+
+</body>
+</html>
